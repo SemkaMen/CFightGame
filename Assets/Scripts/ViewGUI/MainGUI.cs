@@ -7,7 +7,7 @@ public class MainGUI : MonoBehaviour
     
     private void Initialize()
     {
-        mainGUIprefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/UI/MainGUI.prefab");
+        mainGUIprefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Resources/Prefabs/UI/MainGUI.prefab");
         canvas = GameObject.Find("Canvas");
     }
 
