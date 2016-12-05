@@ -7,7 +7,7 @@ public class BattleGUI : MonoBehaviour {
 
     private void Initialize()
     {
-        battleGUIprefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/BattleGUI.prefab");
+        battleGUIprefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/UI/BattleGUI.prefab");
         canvas = GameObject.Find("Canvas");
     }
 

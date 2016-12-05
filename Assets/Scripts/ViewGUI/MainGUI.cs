@@ -4,10 +4,10 @@ using UnityEditor;
 public class MainGUI : MonoBehaviour
 {
     private  GameObject mainGUIprefab, canvas;
-
+    
     private void Initialize()
     {
-        mainGUIprefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/MainGUI.prefab");
+        mainGUIprefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/UI/MainGUI.prefab");
         canvas = GameObject.Find("Canvas");
     }
 
