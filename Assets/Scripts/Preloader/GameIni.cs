@@ -3,10 +3,11 @@ using System.Collections;
 
 public class GameIni : MonoBehaviour {
 
-    MainGUI mainGui = new MainGUI();
+    private MainGUI mainGui = new MainGUI();
+    private BattleGUI battleGui = new BattleGUI();
 
 	void Start () {
-	     mainGui.Create();
+        battleGui.Create();
 	}
 
 }
