@@ -9,7 +9,20 @@ public class GameIni : MonoBehaviour {
 
 	void Start () {
         battleGui.Create();
-        player.Create();
+        player.CreatePlayer();
+	    
 	}
+
+    void Update()
+    {
+        if (Input.GetMouseButtonDown(0))
+        {
+            player.DestroyPlayer();
+        }
+        else if (Input.GetMouseButtonDown(1))
+        {
+            player.CreatePlayer();
+        }
+    }
 
 }
