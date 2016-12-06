@@ -10,7 +10,7 @@ public class Player : MonoBehaviour
     {
         mainCamera = Camera.main;
         posVector3 = mainCamera.ScreenToWorldPoint(new Vector3(Screen.width/2f, Screen.height/3f, 1));
-        player = Resources.Load<GameObject>("Prefabs/GameObjects/Player"); ;
+        player = Resources.Load<GameObject>("Prefabs/SceneObjects/Player"); ;
     }
 
     public void CreatePlayer()
