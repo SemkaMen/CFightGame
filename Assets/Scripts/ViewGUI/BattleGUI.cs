@@ -2,7 +2,7 @@
 
 public class BattleGUI : MonoBehaviour {
 
-    private GameObject battleGUI, iniGUI, canvas;
+    private GameObject battleGUI, iniGUI, canvas, background;
     private float scaleFactor;
 
     private void Initialize()
@@ -18,6 +18,7 @@ public class BattleGUI : MonoBehaviour {
         iniGUI = Instantiate(battleGUI);
         iniGUI.transform.SetParent(canvas.transform);
         iniGUI.GetComponent<RectTransform>().localPosition = new Vector3(0, iniGUI.GetComponent<RectTransform>().localPosition.y);
-        iniGUI.GetComponent<RectTransform>().localScale = new Vector3(iniGUI.GetComponent<RectTransform>().localScale.x * scaleFactor, iniGUI.GetComponent<RectTransform>().localScale.y * scaleFactor);
+        iniGUI.GetComponent<RectTransform>().localScale = new Vector3(iniGUI.GetComponent<RectTransform>().localScale.x * scaleFactor, 
+            iniGUI.GetComponent<RectTransform>().localScale.y * scaleFactor);
     }
 }

@@ -7,7 +7,7 @@ public class GameIni : MonoBehaviour {
     private Player player = new Player();
 
 	void Start () {
-        battleGui.Create();
+        mainGui.Create();
         player.CreatePlayer();
 	    
 	}
