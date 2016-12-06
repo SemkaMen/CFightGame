@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\Preloader\GameIni.cs" />
     <Compile Include="Assets\Scripts\ViewGUI\BattleGUI.cs" />
     <Compile Include="Assets\Scripts\ViewGUI\MainGUI.cs" />
+    <Compile Include="Assets\Scripts\ViewGUI\MainMenu.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
