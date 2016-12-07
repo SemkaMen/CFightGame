@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class CreateScene : MonoBehaviour {
+
     private GameObject background, iniBackground, player, iniPlayer;
     private Vector3 posVector3;
     private Camera mainCamera;
@@ -40,29 +40,4 @@ public class CreateScene : MonoBehaviour {
         }
     }
 
-    public void CreatePlayer()
-    {
-        if (GameObject.Find("Player(Clone)") == null)
-        {
-            Initialize();
-            iniPlayer = Instantiate(player);
-            iniPlayer.transform.position = posVector3;
-        }
-        else
-        {
-            Debug.Log("Player already created");
-        }
-    }
-
-    public void DestroyPlayer()
-    {
-        if (GameObject.Find("Player(Clone)") != null)
-        {
-            Destroy(GameObject.Find("Player(Clone)"));
-        }
-        else
-        {
-            Debug.Log("Player don't exist");
-        }
-    }
 }
