@@ -1,16 +1,16 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class GameIni : MonoBehaviour {
 
-    private MainGUI mainGui = new MainGUI();
+    //private MainGUI mainGui = new MainGUI();
     private BattleGUI battleGui = new BattleGUI();
     private Player player = new Player();
+    private CreateScene createScene = new CreateScene();
 
 	void Start () {
         battleGui.Create();
+        createScene.Create();
         player.CreatePlayer();
-	    
 	}
 
     void Update()

@@ -7,8 +7,8 @@ public class MainMenu : MonoBehaviour
 
     public void Play()
     {
-        GameObject gameIni = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/GameIni.prefab");
-        Instantiate(gameIni);
+        //GameObject gameIni = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/GameIni.prefab");
+        //Instantiate(gameIni);
         GameObject mainMenu = GameObject.Find("MainMenu");
         mainMenu.gameObject.SetActive(false);
         if (mainMenu.gameObject.activeSelf)
