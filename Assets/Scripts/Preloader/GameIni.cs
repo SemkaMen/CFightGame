@@ -17,12 +17,10 @@ public class GameIni : MonoBehaviour {
     {
         if (Input.GetMouseButtonDown(0))
         {
-            player.DestroyPlayer();
+            player.AnimPlay("attack");
+            player.AnimPlay("idle");
         }
-        else if (Input.GetMouseButtonDown(1))
-        {
-            player.CreatePlayer();
-        }
+
     }
 
 }

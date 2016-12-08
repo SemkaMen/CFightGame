@@ -38,4 +38,10 @@ public class Player : MonoBehaviour
             Debug.Log("Player don't exist");
         }
     }
+
+    public void AnimPlay(string clipName)
+    {
+        GameObject element = GameObject.Find("Player(Clone)");
+        element.gameObject.GetComponent<Animator>().SetTrigger(clipName);
+    }
 }
