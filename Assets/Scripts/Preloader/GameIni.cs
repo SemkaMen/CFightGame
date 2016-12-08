@@ -6,11 +6,13 @@ public class GameIni : MonoBehaviour {
     private BattleGUI battleGui = new BattleGUI();
     private Player player = new Player();
     private CreateScene createScene = new CreateScene();
+    private Enemy enemy = new Enemy();
 
-	void Start () {
+	void Start ()
+    {
         battleGui.Create();
         createScene.Create();
-        player.CreatePlayer();
+        enemy.CreateEnemy();
 	}
 
     void Update()
@@ -20,7 +22,6 @@ public class GameIni : MonoBehaviour {
             player.AnimPlay("attack");
             player.AnimPlay("idle");
         }
-
     }
 
 }

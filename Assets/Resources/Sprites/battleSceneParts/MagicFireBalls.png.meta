@@ -1,0 +1,1305 @@
+fileFormatVersion: 2
+guid: 1b4f14035859215479c3e1ffc18c8c7c
+timeCreated: 1481238914
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: MagicFireBalls_0
+    21300002: MagicFireBalls_1
+    21300004: MagicFireBalls_2
+    21300006: MagicFireBalls_3
+    21300008: MagicFireBalls_4
+    21300010: MagicFireBalls_5
+    21300012: MagicFireBalls_6
+    21300014: MagicFireBalls_7
+    21300016: MagicFireBalls_8
+    21300018: MagicFireBalls_9
+    21300020: MagicFireBalls_10
+    21300022: MagicFireBalls_11
+    21300024: MagicFireBalls_12
+    21300026: MagicFireBalls_13
+    21300028: MagicFireBalls_14
+    21300030: MagicFireBalls_15
+    21300032: MagicFireBalls_16
+    21300034: MagicFireBalls_17
+    21300036: MagicFireBalls_18
+    21300038: MagicFireBalls_19
+    21300040: MagicFireBalls_20
+    21300042: MagicFireBalls_21
+    21300044: MagicFireBalls_22
+    21300046: MagicFireBalls_23
+    21300048: MagicFireBalls_24
+    21300050: MagicFireBalls_25
+    21300052: MagicFireBalls_26
+    21300054: MagicFireBalls_27
+    21300056: MagicFireBalls_28
+    21300058: MagicFireBalls_29
+    21300060: MagicFireBalls_30
+    21300062: MagicFireBalls_31
+    21300064: MagicFireBalls_32
+    21300066: MagicFireBalls_33
+    21300068: MagicFireBalls_34
+    21300070: MagicFireBalls_35
+    21300072: MagicFireBalls_36
+    21300074: MagicFireBalls_37
+    21300076: MagicFireBalls_38
+    21300078: MagicFireBalls_39
+    21300080: MagicFireBalls_40
+    21300082: MagicFireBalls_41
+    21300084: MagicFireBalls_42
+    21300086: MagicFireBalls_43
+    21300088: MagicFireBalls_44
+    21300090: MagicFireBalls_45
+    21300092: MagicFireBalls_46
+    21300094: MagicFireBalls_47
+    21300096: MagicFireBalls_48
+    21300098: MagicFireBalls_49
+    21300100: MagicFireBalls_50
+    21300102: MagicFireBalls_51
+    21300104: MagicFireBalls_52
+    21300106: MagicFireBalls_53
+    21300108: MagicFireBalls_54
+    21300110: MagicFireBalls_55
+    21300112: MagicFireBalls_56
+    21300114: MagicFireBalls_57
+    21300116: MagicFireBalls_58
+    21300118: MagicFireBalls_59
+    21300120: MagicFireBalls_60
+    21300122: MagicFireBalls_61
+    21300124: MagicFireBalls_62
+    21300126: MagicFireBalls_63
+    21300128: MagicFireBalls_64
+    21300130: MagicFireBalls_65
+    21300132: MagicFireBalls_66
+    21300134: MagicFireBalls_67
+    21300136: MagicFireBalls_68
+    21300138: MagicFireBalls_69
+    21300140: MagicFireBalls_70
+    21300142: MagicFireBalls_71
+    21300144: MagicFireBalls_72
+    21300146: MagicFireBalls_73
+    21300148: MagicFireBalls_74
+    21300150: MagicFireBalls_75
+    21300152: MagicFireBalls_76
+    21300154: MagicFireBalls_77
+    21300156: MagicFireBalls_78
+    21300158: MagicFireBalls_79
+    21300160: MagicFireBalls_80
+    21300162: MagicFireBalls_81
+    21300164: MagicFireBalls_82
+    21300166: MagicFireBalls_83
+    21300168: MagicFireBalls_84
+    21300170: MagicFireBalls_85
+    21300172: MagicFireBalls_86
+    21300174: MagicFireBalls_87
+    21300176: MagicFireBalls_88
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MagicFireBalls_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 292
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 292
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_2
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 292
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_3
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 292
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 292
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_5
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 292
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_6
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 292
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 263
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_8
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 263
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 265
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_10
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 264
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 268
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_12
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 268
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 270
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 242
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_15
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 244
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_16
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 244
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_17
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 242
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_18
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 241
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_20
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 217
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_21
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 213
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_22
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 214
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_23
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 212
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_24
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 212
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 191
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_26
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 191
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_27
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 191
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 191
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_29
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 191
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_30
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 191
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_31
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 191
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 162
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_33
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 162
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_34
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 164
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_35
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 163
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_36
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_37
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_38
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 169
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_39
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 141
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_40
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 143
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_41
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 143
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_42
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 141
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_43
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 140
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_45
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 116
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_46
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 112
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_47
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 113
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_48
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 111
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_49
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 111
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 90
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_51
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 90
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_52
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 90
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 90
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_54
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 90
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_55
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 90
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_56
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 90
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_57
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 61
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_58
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 61
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_59
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 63
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_60
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 62
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_61
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_62
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 66
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_63
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 68
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 40
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_65
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 42
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_66
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 42
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_67
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 40
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_68
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 39
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_69
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 15
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_70
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 15
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_71
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 11
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_72
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 12
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_73
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 10
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_74
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 10
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_75
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_76
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 1
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_77
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_78
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 1
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_79
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_80
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 1
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_81
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_82
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 1
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_83
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_84
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_85
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_86
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_87
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: MagicFireBalls_88
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 1
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

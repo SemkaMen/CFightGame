@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\GameLogic\CreateScene.cs" />
+    <Compile Include="Assets\Scripts\GameLogic\Enemy.cs" />
     <Compile Include="Assets\Scripts\GameLogic\FireIntense.cs" />
     <Compile Include="Assets\Scripts\GameLogic\Player.cs" />
     <Compile Include="Assets\Scripts\Preloader\GameIni.cs" />
