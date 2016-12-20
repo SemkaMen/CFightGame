@@ -2,26 +2,27 @@
 
 public class GameIni : MonoBehaviour {
 
-    //private MainGUI mainGui = new MainGUI();
-    private BattleGUI battleGui = new BattleGUI();
-    private Player player = new Player();
+    private MainGUI mainGui = new MainGUI();
     private CreateScene createScene = new CreateScene();
-    private Enemy enemy = new Enemy();
 
-	void Start ()
+    private float scaleFactor;
+
+
+    private void Start ()
     {
-        battleGui.Create();
+        mainGui.Create();
         createScene.Create();
-        enemy.CreateEnemy();
+        //enemy.CreateEnemy();
 	}
 
-    void Update()
+    private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonUp(0))
         {
-            player.AnimPlay("attack");
-            player.AnimPlay("idle");
-        }
-    }
 
+            //player.AnimPlay("attack");
+            //player.AnimPlay("idle");
+        }
+        //float timer = Time.deltaTime;
+    }
 }

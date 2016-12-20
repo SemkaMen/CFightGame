@@ -1,16 +1,17 @@
 ﻿using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player 
 {
     private GameObject player, iniPlayer;
     private Camera mainCamera;
     private Vector3 posVector3;
+    private AudioSource playerAudioSource;
 
     private void Initialize()
     {
         mainCamera = Camera.main;
         posVector3 = mainCamera.ScreenToWorldPoint(new Vector3(Screen.width/2f, Screen.height/3f, 1));
-        player = Resources.Load<GameObject>("Prefabs/SceneObjects/Player"); ;
+        player = Resources.Load<GameObject>("Prefabs/SceneObjects/Player"); 
     }
 
     public void CreatePlayer()
@@ -18,7 +19,7 @@ public class Player : MonoBehaviour
         if (GameObject.Find("Player(Clone)") == null)
         {
             Initialize();
-            iniPlayer = Instantiate(player);
+            iniPlayer = Object.Instantiate(player);
             iniPlayer.transform.position = posVector3;
         }
         else
@@ -31,7 +32,7 @@ public class Player : MonoBehaviour
     {
         if (GameObject.Find("Player(Clone)") != null)
         {
-            Destroy(GameObject.Find("Player(Clone)"));
+            Object.Destroy(GameObject.Find("Player(Clone)"));
         }
         else
         {
@@ -44,4 +45,11 @@ public class Player : MonoBehaviour
         GameObject element = GameObject.Find("Player(Clone)");
         element.gameObject.GetComponent<Animator>().SetTrigger(clipName);
     }
+
+    public void AudioPlay(string clipName)
+    {
+
+    }
+
+
 }

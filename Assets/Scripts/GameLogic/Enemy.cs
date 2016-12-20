@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Enemy : MonoBehaviour
+public class Enemy 
 {
     private GameObject[] enemies;
     private GameObject enemy, iniEnemy, spawnPoint;
@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
     public void CreateEnemy()
     {
         Initialize();
-        iniEnemy = Instantiate(enemies[Random.Range(0, enemies.Length)]);
+        iniEnemy = Object.Instantiate(enemies[Random.Range(0, enemies.Length)]);
         iniEnemy.transform.SetParent(spawnPoint.transform);
         iniEnemy.transform.localPosition = Vector3.zero;
     }

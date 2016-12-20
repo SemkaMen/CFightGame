@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 
-public class CreateScene : MonoBehaviour
+public class CreateScene
 {
-    private Player player = new Player();
+    //private Player player = new Player();
     private GameObject background, iniBackground;
 
     private void Initialize()
@@ -13,14 +13,14 @@ public class CreateScene : MonoBehaviour
     public void Create()
     {
         Initialize();
-        player.CreatePlayer();
-        iniBackground = Instantiate(background);
+        //player.CreatePlayer();
+        iniBackground = Object.Instantiate(background);
         iniBackground.transform.position = Vector3.zero;
     }
 
     public void Destroy()
     {
-        Destroy(GameObject.Find("Background(Clone)"));
-        player.DestroyPlayer();
+        Object.Destroy(GameObject.Find("Background(Clone)"));
+        //player.DestroyPlayer();
     }
 }
