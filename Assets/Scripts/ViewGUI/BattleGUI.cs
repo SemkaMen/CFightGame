@@ -21,6 +21,6 @@ public class BattleGUI  {
         iniGUI.GetComponent<RectTransform>().localScale = new Vector3(iniGUI.GetComponent<RectTransform>().localScale.x * scaleFactor, 
             iniGUI.GetComponent<RectTransform>().localScale.y * scaleFactor);
         GameObject progressBar = GameObject.Find("ProgressBar");
-        progressBar.GetComponent<RectTransform>().localPosition = new Vector3(progressBar.GetComponent<RectTransform>().localPosition.x,1800);
+        progressBar.GetComponent<RectTransform>().localPosition = new Vector3(progressBar.GetComponent<RectTransform>().localPosition.x,1200);
     }
 }

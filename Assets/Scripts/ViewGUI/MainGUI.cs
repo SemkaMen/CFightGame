@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class MainGUI : MonoBehaviour
+public class MainGUI
 {
     private GameObject mainGui, iniGUI, canvas;
     private float scaleFactor;
@@ -15,7 +15,7 @@ public class MainGUI : MonoBehaviour
     public void Create()
     {
         Initialize();
-        iniGUI = Instantiate(mainGui);
+        iniGUI = Object.Instantiate(mainGui);
         iniGUI.transform.SetParent(canvas.transform);
         iniGUI.GetComponent<RectTransform>().localPosition = new Vector3(0, 
             iniGUI.GetComponent<RectTransform>().localPosition.y);

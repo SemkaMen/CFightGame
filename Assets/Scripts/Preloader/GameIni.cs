@@ -4,6 +4,8 @@ public class GameIni : MonoBehaviour {
 
     private MainGUI mainGui = new MainGUI();
     private CreateScene createScene = new CreateScene();
+    private BattleGUI battleGui = new BattleGUI();
+
 
     private float scaleFactor;
 
