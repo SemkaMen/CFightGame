@@ -63,14 +63,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GameLogic\BattleGUIButtons.cs" />
     <Compile Include="Assets\Scripts\GameLogic\CreateScene.cs" />
     <Compile Include="Assets\Scripts\GameLogic\Enemy.cs" />
     <Compile Include="Assets\Scripts\GameLogic\FireIntense.cs" />
+    <Compile Include="Assets\Scripts\GameLogic\MainGUIButtons.cs" />
     <Compile Include="Assets\Scripts\GameLogic\Player.cs" />
     <Compile Include="Assets\Scripts\Preloader\GameIni.cs" />
     <Compile Include="Assets\Scripts\ViewGUI\BattleGUI.cs" />
     <Compile Include="Assets\Scripts\ViewGUI\MainGUI.cs" />
-    <Compile Include="Assets\Scripts\ViewGUI\MainGUIButtons.cs" />
     <Compile Include="Assets\barcontroller.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />

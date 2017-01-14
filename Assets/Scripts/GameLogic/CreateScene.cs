@@ -2,8 +2,8 @@
 
 public class CreateScene
 {
-    //private Player player = new Player();
     private GameObject background, iniBackground;
+    private Player player = new Player();
 
     private void Initialize()
     {
@@ -13,7 +13,7 @@ public class CreateScene
     public void Create()
     {
         Initialize();
-        //player.CreatePlayer();
+        player.CreatePlayer();
         iniBackground = Object.Instantiate(background);
         iniBackground.transform.position = Vector3.zero;
     }
