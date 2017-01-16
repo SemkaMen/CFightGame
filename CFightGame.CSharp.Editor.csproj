@@ -5,16 +5,16 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{AF6B7A8E-7B3F-990B-6132-7E3F2D84B192}</ProjectGuid>
+    <ProjectGuid>{69C7E7B5-E528-3F3A-A7E0-4564B94AE7EE}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
-    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <TargetFrameworkProfile>Unity Full v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
-    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
     <UnityVersion>5.4.2f2</UnityVersion>
     <RootNamespace></RootNamespace>
@@ -52,32 +52,63 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>Library\UnityAssemblies\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.EditorTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEditor.EditorTestsRunner.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>Library\UnityAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor">
-      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    <Reference Include="UnityEditor.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.TreeEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.TreeEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Graphs.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.Android.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.Android.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>Library\UnityAssemblies\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
+      <HintPath>Library\UnityAssemblies\SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotoShopImporter">
+      <HintPath>Assets\Editor\PhotoShopImporter.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\GameLogic\BattleGUIButtons.cs" />
-    <Compile Include="Assets\Scripts\GameLogic\CreateScene.cs" />
-    <Compile Include="Assets\Scripts\GameLogic\Enemy.cs" />
-    <Compile Include="Assets\Scripts\GameLogic\FireIntense.cs" />
-    <Compile Include="Assets\Scripts\GameLogic\MainGUIButtons.cs" />
-    <Compile Include="Assets\Scripts\GameLogic\Player.cs" />
-    <Compile Include="Assets\Scripts\Preloader\GameIni.cs" />
-    <Compile Include="Assets\Scripts\ViewGUI\BattleGUI.cs" />
-    <Compile Include="Assets\Scripts\ViewGUI\MainGUI.cs" />
-    <Compile Include="Assets\Simple Sprite Packer\Scripts\SPAction.cs" />
-    <Compile Include="Assets\Simple Sprite Packer\Scripts\SPActionType.cs" />
-    <Compile Include="Assets\Simple Sprite Packer\Scripts\SPInstance.cs" />
-    <Compile Include="Assets\Simple Sprite Packer\Scripts\SPSpriteInfo.cs" />
-    <Compile Include="Assets\Simple Sprite Packer\Scripts\UITexturePacker.cs" />
-    <Compile Include="Assets\barcontroller.cs" />
+    <ProjectReference Include="CFightGame.CSharp.csproj">
+      <Project>{AF6B7A8E-7B3F-990B-6132-7E3F2D84B192}</Project>
+      <Name>CFightGame.CSharp</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Simple Sprite Packer\Scripts\Editor\SPAtlasBuilder.cs" />
+    <Compile Include="Assets\Simple Sprite Packer\Scripts\Editor\SPDropWindow.cs" />
+    <Compile Include="Assets\Simple Sprite Packer\Scripts\Editor\SPInstanceEditor.cs" />
+    <Compile Include="Assets\Simple Sprite Packer\Scripts\Editor\SPReferenceReplacerWindow.cs" />
+    <Compile Include="Assets\Simple Sprite Packer\Scripts\Editor\SPSettings.cs" />
+    <Compile Include="Assets\Simple Sprite Packer\Scripts\Editor\SPSpriteImportData.cs" />
+    <Compile Include="Assets\Simple Sprite Packer\Scripts\Editor\SPTools.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Simple Sprite Packer\Changelog.txt" />
