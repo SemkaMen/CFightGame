@@ -4,6 +4,7 @@ using System.Collections;
 public class Enemy : MonoBehaviour
 {
     private GameObject[] enemies;
+    Sprite[] sprites;
     private GameObject enemy, iniEnemy, spawnPoint;
 
     private void Awake()
@@ -23,7 +24,9 @@ public class Enemy : MonoBehaviour
     public void CreateEnemy()
     {
         Initialize();
-        iniEnemy = Instantiate(enemies[Random.Range(0, enemies.Length)]);
+        GameObject curEnemy = enemies[Random.Range(0, enemies.Length)];
+        iniEnemy = Instantiate(curEnemy);
+        string taG = curEnemy.gameObject.tag;
         iniEnemy.transform.SetParent(spawnPoint.transform);
         iniEnemy.transform.localPosition = Vector3.zero;
     }
