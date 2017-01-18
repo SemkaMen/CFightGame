@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFightGame.CSharp", "CFightGame.CSharp.csproj", "{AF6B7A8E-7B3F-990B-6132-7E3F2D84B192}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFightGame", "CFightGame.csproj", "{748B2BAF-10DE-3AE4-35FE-BBB83AE185E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFightGame.CSharp.Editor", "CFightGame.CSharp.Editor.csproj", "{69C7E7B5-E528-3F3A-A7E0-4564B94AE7EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CFightGame.Editor", "CFightGame.Editor.csproj", "{C718B2D6-97A6-4105-6040-D0CD8EC49FF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AF6B7A8E-7B3F-990B-6132-7E3F2D84B192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF6B7A8E-7B3F-990B-6132-7E3F2D84B192}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF6B7A8E-7B3F-990B-6132-7E3F2D84B192}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF6B7A8E-7B3F-990B-6132-7E3F2D84B192}.Release|Any CPU.Build.0 = Release|Any CPU
-		{69C7E7B5-E528-3F3A-A7E0-4564B94AE7EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{69C7E7B5-E528-3F3A-A7E0-4564B94AE7EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{69C7E7B5-E528-3F3A-A7E0-4564B94AE7EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{69C7E7B5-E528-3F3A-A7E0-4564B94AE7EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748B2BAF-10DE-3AE4-35FE-BBB83AE185E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748B2BAF-10DE-3AE4-35FE-BBB83AE185E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748B2BAF-10DE-3AE4-35FE-BBB83AE185E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748B2BAF-10DE-3AE4-35FE-BBB83AE185E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C718B2D6-97A6-4105-6040-D0CD8EC49FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C718B2D6-97A6-4105-6040-D0CD8EC49FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C718B2D6-97A6-4105-6040-D0CD8EC49FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C718B2D6-97A6-4105-6040-D0CD8EC49FF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
