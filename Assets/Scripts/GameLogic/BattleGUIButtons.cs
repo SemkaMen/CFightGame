@@ -3,17 +3,16 @@ using System.Collections;
 
 public class BattleGUIButtons : MonoBehaviour
 {
-    Enemy enemy = new Enemy();
     public void YlwBtn()
     {
-        enemy.CreateEnemy();
+        GameObject.Find("_EnemyController").GetComponent<Enemy>().CreateEnemy();
     }
     public void BlueBtn()
     {
-        enemy.DestroyCurrentEnemy();
+        GameObject.Find("_EnemyController").GetComponent<Enemy>().DestroyCurrentEnemy();
     }
     public void RedBtn()
     {
-
+        GameObject.Find("_EnemyController").GetComponent<Enemy>().isWalk = true;
     }
 }

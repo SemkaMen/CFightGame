@@ -3,13 +3,8 @@ using UnityEngine.UI;
 
 public class barcontroller : MonoBehaviour
 {
-    private float speed;
+    public float speed = 0.01f;
     private float currentEnergy;
-
-    void Start()
-    {
-        speed = 0.01f;
-    }
 
     void Update()
     {
